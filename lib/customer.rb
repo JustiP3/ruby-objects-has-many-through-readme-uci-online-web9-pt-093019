@@ -26,4 +26,4 @@ class Customer
 
 
 
-end #end of calss
+end #end of class
