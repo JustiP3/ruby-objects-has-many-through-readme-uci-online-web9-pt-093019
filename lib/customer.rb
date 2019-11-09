@@ -1,3 +1,4 @@
+require 'pry'
 class Customer
   attr_reader :name, :age
   @@all = []
@@ -17,6 +18,7 @@ class Customer
   end
 
   def waiters
+    binding.pry 
     self.meals.collect {|meal| meal.waiter}
   end
 
